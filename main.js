@@ -11,3 +11,11 @@ Header.style.borderBottom = 'solid 5px #000';
 var Heading = document.getElementsByClassName("title");
 Heading[0].style.color = 'green'
 Heading[0].innerHTML = '<b>Add Items</b>';
+
+//Make the list background color  and all list element to Bold
+var items = document.getElementsByClassName('list-group-item');
+items[2].style.backgroundColor = 'green';
+
+for(var i=0; i < items.length; i++){
+    items[i].style.fontWeight = 'bold';
+}
