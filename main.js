@@ -19,3 +19,11 @@ items[2].style.backgroundColor = 'green';
 for(var i=0; i < items.length; i++){
     items[i].style.fontWeight = 'bold';
 }
+
+//editing New <li> item by className and ByTagName
+
+var lis = document.getElementsByClassName('list-group-item1');
+lis[0].style.backgroundColor = 'red';
+
+var li = document.getElementsByTagName('li');
+li[4].textContent = 'New List Item';
