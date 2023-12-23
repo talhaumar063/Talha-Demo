@@ -49,9 +49,9 @@
 
 //TRAVERSING THE DOM//
 
-// var itemList = document.querySelector('#items');
+//var itemList = document.querySelector('#items');
 //PARENTElements
-// 1- console.log(itemList.parentElement);
+//1- console.log(itemList.parentElement);
 // 2- console.log(itemList.lastElementChild);
 // 3- console.log(itemList.lastChild);
 // 5- console.log(itemList.firstElementChild);
@@ -64,33 +64,33 @@
 
 //4-11 Create Element/Child//
 
-var newDive = document.createElement('div');
+// var newDive = document.createElement('div');
 
-//Add class
-newDive.className = 'myclass';
-//Add Id
-newDive.id = 'myclassid';
+// //Add class
+// newDive.className = 'myclass';
+// //Add Id
+// newDive.id = 'myclassid';
 
-// 12-Set Attribute
-newDive.setAttribute('title', 'Hello div');
+// // 12-Set Attribute
+// newDive.setAttribute('title', 'Hello div');
 
-// 13- Create TextNode  
-var newDivText = document.createTextNode('HEllo');
+// // 13- Create TextNode  
+// var newDivText = document.createTextNode('HEllo');
 
-// 14- Add Text to div
-newDive.appendChild(newDivText);
-console.log(newDive);
-newDive.style.fontSize = '30px';
+// // 14- Add Text to div
+// newDive.appendChild(newDivText);
+// console.log(newDive);
+// newDive.style.fontSize = '30px';
 
-// 1- Add HEllo before Item Lister
-var container =  document.querySelector('header .container');
-var h1 = document.querySelector('header h1');
-container.insertBefore(newDive , h1);
+// // 1- Add HEllo before Item Lister
+// var container =  document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
+// container.insertBefore(newDive , h1);
 
-// 2- Add HEllo Before Item 1
-const newNode = document.createElement("div");
-const textNode = document.createTextNode("HEllo");
-newNode.appendChild(textNode);
+// // 2- Add HEllo Before Item 1
+// const newNode = document.createElement("div");
+// const textNode = document.createTextNode("HEllo");
+// newNode.appendChild(textNode);
 
-const list = document.getElementById("items");
-list.insertBefore(newNode, list.children[0]);
+// const list = document.getElementById("items");
+// list.insertBefore(newNode, list.children[0]);
